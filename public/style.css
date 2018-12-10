@@ -1,0 +1,74 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: gold;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+h1{
+ text-align: center; 
+}
+.container {
+  border-radius: 15px;
+  background-color: ivory;
+  width:600px;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+footer {
+	margin-top: 15px;
+  text-align:center;
+}
+.fa-github{
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+#logo-lv{
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.2em;
+}
+#credits{
+  font-size: 0.8em;
+}
+  
+ol {
+  background-color: ivory;
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #2574A9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+
+}
+input#button {
+  width: 230px;
+}
+.view {
+  position:relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px  solid  #aaa;
+  padding: 20px;
+  width: 60%;
+  min-width: 400px;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
